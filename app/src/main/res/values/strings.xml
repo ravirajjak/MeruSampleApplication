@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MeruSampleApplication</string>
+    <string name="title_activity_sample">SampleActivity</string>
+    <string name="lbl_search">Search</string>
+    <string name="lbl_meru">Meru</string>
+    <string name="lbl_no_internet_connection">No Internet Connection</string>
+    <string name="lbl_delete">Delete</string>
+    <string name="lbl_browse">Browse</string>
+</resources>
