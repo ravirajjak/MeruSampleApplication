@@ -117,6 +117,7 @@ class MainActivity : BaseActivity(), IOnRecylerItemClickListener, OnLoadMoreList
     private fun onSuccess(response: Search) {
         response.let {
             mAdapter.setData(it.recipes)
+            mAdapter.setOnLoadMoreListener(this)
             mPref.setStringPreference(AppConst.DATA, gson.toJson(response))
         }
     }
